@@ -1,0 +1,75 @@
+body{ color: beige;
+    background-color: black;
+}
+/* Parte sobre mim e etcs */
+ul{display: flex;
+justify-content: space-between;
+list-style-type: none;
+padding: 25px; ;
+font-family: 'Manrope', sans-serif;
+ }
+
+ /* Comportamento h1 e h2 , fonte exportada*/
+h1{font-family: 'Manrope', sans-serif;
+color:#00a2ff ;}
+
+h2{font-family: 'Manrope', sans-serif;
+   color: #00a2ff;}
+
+h3{font-family: 'Manrope', sans-serif;}
+
+h4{font-family: 'Manrope', sans-serif;}
+
+/*Cor em fonte com link*/
+
+a{color: beige;
+text-decoration: none;
+}
+
+/* Comportamento de toda imagem head */
+ header img {width: 250px;
+    border-radius: 50%;
+border: 7px solid #00a2ff }
+
+/*TAG pra centro*/
+.CENTRO{ text-align: center;}
+
+/*div UMA DO LADO DA OUTRA */
+
+ #Container{display: flex;}
+
+ #Container div{ width: 600px;
+    height: 300px;
+    display: flex;
+    Margin: 30px;
+    align-items: center;
+    justify-content: center;
+    background-color: #02011f;}
+
+    
+footer img  { width: 70px;
+height: 70px;
+border-radius: 50%;
+border: 7px solid #00a2ff }
+
+footer{display:flex ;
+justify-content: center;
+text-align: center;
+}
+
+footer a {margin: 20px;
+margin-top: 3px;}
+
+.margem{padding: 0px 50px;}
+
+nav a:hover{color: #00a2ff ;}
+
+.space {height: 10px;}
+
+.NO{color: beige;}
+
+div{border-radius: 30px;}
+
+#separar { text-align: left;
+
+.lefta{text-align:left;}
